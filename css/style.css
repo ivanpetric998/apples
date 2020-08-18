@@ -1,0 +1,412 @@
+@font-face
+{
+	src: url('RobotoSlab-Regular.ttf');
+	font-family:'naslovi';
+}
+@font-face
+{
+	src: url('Lora-Regular.ttf');
+	font-family:'sadrzaj';
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+.cistac {
+	clear: both;
+}
+ul {
+	list-style-type: none;
+}
+p {
+	font-family:'sadrzaj';
+}
+h {
+	font-family:'naslovi';
+}
+a {
+	text-decoration: none;
+	font-family:'naslovi';
+}
+hr{
+	border:1px solid #adadad;
+}
+#telo{
+	width:100%;
+	background-image:url('../images/pozadina1.jpg');
+	background-repeat:repeat-x repeat-y;
+}
+.okvir{
+	width:1000px;
+	margin:0px auto;
+}
+#heder{
+	width:100%;
+	background-image:url('../images/pozadina2.jpg');
+	background-repeat:repeat-x repeat-y;
+}
+#logo{
+	float:left;
+}
+#logo img{
+	width:250px;
+	margin-top:5px;
+	margin-bottom:5px;
+	box-shadow:3px 3px 5px #adadad;
+}
+#pretraga{
+	width:250px;
+	margin-top:50px;
+	float:right;
+	padding:10px;
+}
+#tekst{
+	float:left;
+}
+#idi{
+	float:right;
+}
+
+#tekst input[type="text"]{
+	font-size:20px;
+	background-color:#fff;
+	width:180px;
+	color:#adadad;
+}
+#idi input[type="submit"]{
+	background-color:#d60c0c;
+	font-size:20px;
+	padding:0px 10px;
+	color:#fff;
+}
+.meni ul{
+	display:flex; 
+  	flex-direction:row; 
+  	justify-content:space-around;
+}
+.meni ul li{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.meni ul li a:hover{
+	background-color:#a3d87e;
+}
+.meni ul li a{
+	font-weight:bold;
+	font-size:17px;
+	color:#d60c0c;
+	padding:12px 40px;
+	
+}
+.meni ul li .aktivan{
+	background-color:#a3d87e;
+}
+#futer{
+	width:100%;
+	background-image:url('../images/pozadina2.jpg');
+	background-repeat:repeat-x repeat-y;
+}
+#copyright{
+	float:left;
+	margin-top:25px;
+}
+#drustvene-mreze{
+	float:right;
+}
+#drustvene-mreze li{
+	display:block;
+	float:left;
+	margin:10px;
+}
+#drustvene-mreze li img{
+	width:50px;
+	border-radius:10px;
+}
+
+.lista li{
+	display:inline-block;
+	margin:5px;
+}
+.lista li a{
+	color:#d60c0c;
+}
+
+/*---Sadrzaj index.html--*/
+#banerSlika{
+	width:1000px;	
+	box-shadow:3px 3px 5px #adadad;
+}
+#banerSlika img{
+	width:1000px;
+}
+.clanak{
+	width:310px;
+	float:left;
+	padding-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+	
+}
+
+.clanak img{
+	width:300px;
+	margin-top:10px;
+	margin-bottom:10px;
+	box-shadow:3px 3px 5px #adadad;
+}
+.clanak h2{
+	color:#d60c0c;
+}
+.clanak p{
+	text-align:left;
+	color:#000;
+}
+.clanak p a{
+	text-align:left;	
+	color:#d60c0c;
+	font-weight:bold;
+}
+/*----Kraj sadrzaja index.html----*/
+
+/*---Sadrzaj sorte.html--*/
+.sadrzaj{
+	width:950px;
+	margin:0px auto;
+	padding-bottom:20px;
+	padding-top:10px;
+}
+.slika{
+	float:right;
+	width:230px;
+}
+.slika img{
+	width:230px;
+	border:7px solid #fff;
+}
+.tekst{
+	float:left;
+	width:700px;
+	
+}
+.tekst h2{
+	color:#d60c0c;
+}
+.tekst p{
+	text-align:justify;
+	font-size:18px;
+}
+.tekst p a{
+	color:#d60c0c;
+	font-weight:bold;
+	font-size:18px;
+}
+.slika1{
+	float:left;
+	width:230px;
+	
+}
+.slika1 img{
+	width:230px;
+	border:7px solid #fff;
+
+}
+.tekst1{
+	float:right;
+	width:700px;
+}
+.tekst1 h2{
+	color:#d60c0c;
+}
+.tekst1 p{
+	text-align:justify;
+	font-size:18px;
+}
+.tekst1 p a{
+	color:#d60c0c;
+	font-weight:bold;
+	font-size:18px;
+}
+
+/*---Kraj sadrzaja sorte.html--*/
+
+/*---Sadrzaj prijavi se.html----*/
+#prijava form{
+	margin:0px auto;
+	margin-bottom:20px;
+	width:350px;
+	font-size:30px;
+	border:2px solid #d60c0c;
+	padding:50px;
+	border-radius:3px;
+}
+#prijava form h3{
+	color:#d60c0c;
+	font-size:30px;
+}
+#prijava form label{
+	color:#d60c0c;
+	font-size:25px;
+}
+#prijava form input[type="text"]{
+	font-size:20px;
+	background-color:white;
+	width:350px;
+}
+#prijava form input[type="password"]{
+	font-size:20px;
+	background-color:white;
+	width:350px;
+}
+#prijava form input[type="submit"]{
+	font-size:22px;
+	background-color:#d60c0c;
+	width:170px;
+	color:#fff;
+}
+#prijava form input[type="reset"]{
+	background-color:#d60c0c;
+	font-size:22px;
+	width:170px;
+	color:#fff;
+}
+/*---Kraj sadrzaja prijavi se.html----*/
+
+/*---Sadrzaj kontakt.html----*/
+#kontakt form{
+	margin:0px auto;
+	margin-bottom:20px;
+	width:350px;
+	font-size:30px;
+	border:2px solid #d60c0c;
+	padding:30px 40px;
+	border-radius:3px;
+}
+#kontakt form p{
+	font-size:16px;
+}
+#kontakt form h3{
+	font-size:25px;
+	color:#d60c0c;
+}
+#kontakt form h4{
+	font-size:22px;
+	color:#d60c0c;
+}
+#kontakt form fieldset{
+	border:2px solid #adadad;
+	border-radius:1px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:5px;
+	margin-top:10px;
+}
+#kontakt form fieldset label{
+	font-size:16px;
+	color:#d60c0c;
+}
+#kontakt form fieldset legend{
+	margin-left:20px;
+	color:#d60c0c;
+	font-size:22px;
+}
+#kontakt form fieldset input[type="text"]{
+	width:270px;
+	border:1px solid #adadad;
+}
+#kontakt form fieldset textarea{
+	width:270px;
+	border:1px solid #adadad;
+	
+}
+#kontakt form fieldset input[type="submit"]{
+	width:120px;
+	font-size:20px;
+	background-color:#d60c0c;
+	margin-bottom:10px;
+	margin-top:10px;
+	color:#fff;
+}
+#kontakt form fieldset input[type="reset"]{
+	width:120px;
+	font-size:20px;
+	background-color:#d60c0c;
+	margin-bottom:10px;
+	margin-top:10px;
+	color:#fff;
+}
+/*---Kraj sadrzaja kontakt.html----*/
+
+/*---Sadrzaj o autoru.html----*/
+#autorGore, #autorSredina, #autorDole{
+	width:900px;
+	margin:20px auto;
+}
+#autorGore h3{
+	font-size:25px;
+}
+#autorGore p{
+	font-size:18px;
+}
+#slikaAutor{
+	width:430px;
+	float:left;
+	margin-right:25px;
+}
+#slikaAutor img{
+	width:430px;
+	box-shadow:3px 3px 5px #adadad;
+}
+#tekstAutor{
+	width:370px;
+	float:left;
+	margin-left:25px;
+	font-size:18px;
+	text-align:left;
+}
+#autorDole form{
+	width:100%;
+}
+#autorDole form fieldset{
+	width:480px;
+	margin:0px auto;
+	border:2px dotted #d60c0c;
+	border-radius:2px;
+	padding:20px;
+	
+}
+#autorDole form fieldset legend{
+	font-size:25px;
+	margin-left:165px;
+}
+#autorDole form fieldset td{
+	width:120px;
+	font-size:22px;
+	text-align:center;
+}
+#autorDole form fieldset input[type="submit"]{
+	width:120px;
+	background-color:#d60c0c;
+	color:#fff;
+	margin-top:15px;
+	font-size:20px;
+}
+/*---Kraj sadrzaja o autoru.html----*/
+/*---Sadrzaj galerija.html----*/
+#galerija{
+	width:1000px;
+	margin:20px auto;
+	display:flex;
+	flex-flow: row-reverse wrap;
+}
+.galerijaSlika{
+	width:300px;
+	margin:10px;
+	
+}
+.galerijaSlika img{
+	width:300px;
+}
+
+/*---Kraj sadrzaja galerija.html----*/
+
